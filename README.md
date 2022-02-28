@@ -16,6 +16,7 @@
  - Perennials Fabrics
  - Skecoplant.com
  - Guardiacivil.es
+ - Birkenstock.com
 # BTC/BECH32 addresses:
  - 1HtyXyCrshiJmLYNru7atpDMJrzG9mzwzf
  - 1FWWRT88WjYbZp4NoRNEBgTGjRxhi2J9YM
