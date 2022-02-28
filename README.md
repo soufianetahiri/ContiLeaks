@@ -14,7 +14,7 @@
  - HOULE ELEC
  - GROUPDOMAIN
  - Perennials Fabrics
-# BTC/BECH32 addresses:
+# BTC/BECH32 address :
 1HtyXyCrshiJmLYNru7atpDMJrzG9mzwzf
 1FWWRT88WjYbZp4NoRNEBgTGjRxhi2J9YM
 15gjb8F5Zd8XRKBCgVxsr8ZuVzr7yBtnCN
@@ -53,7 +53,7 @@ bc1qedxzh30gvh7l6lrp2nf59zf9efckka2rt2r9z4
 bc1q3hefqfvzfdnagwr9dkxphlz2xs6zem5r87hygh
 bc1qxxe0uz8dp820mnl7q5w3a2z9y4zgq9cr6smlf6
 bc1qq6mq20rx2h7u77hp5azyqn9qrr2009quqvdld3
-# IP addresses:
+# IP address :
 54.183.140.39
 5.139.220.204
 45.14.226.47
